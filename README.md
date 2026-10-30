@@ -11,6 +11,23 @@ Run Donkey Kong Country natively on Windows.
 > this project, in the repository or in any release. The recompiled C is
 > generated locally from your own copy and is never committed.
 
+## Download (ready-to-run Windows build)
+
+Get the latest `donkeykongcountry-<version>-windows-x64.zip` from the
+[Releases page](https://github.com/mpolizel/DK1SNESRecomp/releases/latest).
+
+The zip is a **setup pack**: it contains the launcher, the recompiler and this
+source tree (with the framework patches already applied), but no game data.
+On first run:
+
+1. Unzip anywhere and start `DonkeyKongCountrySNESRecomp.exe`.
+2. Let it download the portable build tools (one time per machine), or point
+   it at a `cmake-clang-v1` zip you already have.
+3. Pick your own `Donkey Kong Country (USA).sfc` — USA v1.0, CRC32
+   `c946dca0`.
+4. Press **Generate & rebuild**. The playable game is built into `build/` and
+   started; run it from there afterwards.
+
 ## Status
 
 Boots through the Nintendo/Rare logos into the opening intro (Cranky's
