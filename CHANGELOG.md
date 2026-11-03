@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 — 2026-11-03
+
+### Fixed
+- **Black screen after saving at Candy's Save Point** (sound kept playing).
+  Saving now returns to the map, and the save loads from the file select
+  screen. The game no longer stalls for a moment on its first frame either.
+
 ## 0.1.2 — 2026-11-02
 
 ### New
